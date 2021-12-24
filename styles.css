@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.section_one {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+}
+.header {
+  display: flex;
+}
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+.header_links.li {
+  display: flex;
+  align-items: flex-end;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 16px;
+  border-radius: 8px;
+}
+#fanpage {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+#logo {
+  width: 350px;
+}
+#poster {
+  width: 500px;
+}
